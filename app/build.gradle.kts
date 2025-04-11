@@ -10,11 +10,11 @@ ksp {
 }
 
 android {
-    namespace = "com.example.myapplication"
+    namespace = "com.example.proincome"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.myapplication"
+        applicationId = "com.example.proincome"
         minSdk = 27
         //noinspection OldTargetApi
         targetSdk = 34
