@@ -1,0 +1,8 @@
+{
+    "emulator.androidColdBoot": true,
+    "emulator.emulatorPath": "/home/jay-ponda/Android/Sdk/emulator",
+    "emulator.emulatorPathLinux": "/home/jay-ponda/Android/Sdk/emulator",
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "git.autofetch": true,
+    "git.autofetchPeriod": 3600
+}
