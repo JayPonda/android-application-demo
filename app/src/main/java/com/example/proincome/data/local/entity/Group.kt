@@ -13,8 +13,8 @@ data class Group(
     @ColumnInfo(name = "id")
     val id: Int,
 
-    @ColumnInfo(name = "title")
-    val title: String,
+    @ColumnInfo(name = "name")
+    val name: String,
 
     @ColumnInfo(name = "enable", defaultValue="1")
     val enable: Boolean,
@@ -22,7 +22,7 @@ data class Group(
     @ColumnInfo(name = "icon", defaultValue="null")
     val icon: String?,
 
-    @ColumnInfo(name = "path", defaultValue="null")
+    @ColumnInfo(name = "relative_path", defaultValue="null")
     val relativePath: String?,
 
     @ColumnInfo(name = "transaction_type", defaultValue="0")
